@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>First Node Project</title>
-    <% include partials/head %>
+    <%- include ('partials/head') -%>
   </head>
   <body>
 
     <!-- HEADER -->
-    <% include partials/navigation %>
+    <%- include ('partials/navigation'); -%>
 
     <!-- MAIN CONTENT -->
 
@@ -36,7 +36,7 @@
     </div>
 
     <!-- FOOTER -->
-    <% include partials/footer %>
+    <%- include ('partials/footer'); -%>
 
     <!-- JAVASCRIPT CDNS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
